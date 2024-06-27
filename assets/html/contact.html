@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/svg+xml">
+</head>
+<style>
+  body{
+    background: linear-gradient(rgb(169, 212, 215,1),#fff) ;
+    border: none;
+  }
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  nav{
+    border: none;
+  }
+  .submit{
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  }
+  .submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+<body>
+     <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Product..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo">
+        <img src="/assets/images/logo.svg" alt="Casmart logo" width="130" height="31">
+      </a>
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Casmart logo" width="130" height="31">
+          </a>
+
+          
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/index.html" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="/assets/html/about.html" class="navbar-link">About</a>
+          </li>       
+
+          <li>
+            <a href="/assets/html/contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  <div class="contactPage">    
+      <form action="" class="contact-left">
+       <div class="contact-left-title">
+          <h2>Get in touch</h2><hr>
+        </div>
+        <input style="background-color: white;"  type="text" name="name" placeholder="Enter your name" class="contact-inputs" required>
+        <input style="background-color: white;"  type="email" name="email" placeholder="Email" class="contact-inputs" required>
+        <textarea name="message" id=""  placeholder="Comment" class="contact-inputs"></textarea>
+        <button type="submit" class="submit">Submit <img src="/assets/images/arrow_icon.png" alt=""></button>
+     </form>
+     <div class="contact-right">
+        <img src="/assets/images/right_img.png" alt="">
+    </div>    
+  </div>
+
+    
+</body>
+</html>
